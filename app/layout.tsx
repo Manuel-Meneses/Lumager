@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { lumager } from "@/lib/lumager";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: lumager.name,
@@ -15,6 +16,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="es-AR" className="antialiased">
       <body className="min-h-dvh">{children}</body>
+      <Analytics />
     </html>
   );
 }
