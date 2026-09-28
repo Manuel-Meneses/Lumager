@@ -26,7 +26,7 @@ export function LumagerHero() {
         {/* En celular las cifras suben antes que los bancos y el instrumento: son la prueba. */}
         <div className="grid gap-y-10 lg:grid-cols-12 lg:items-end lg:gap-x-10">
           <div className="lg:col-span-8 lg:row-start-1">
-            <h1 id="lx-hero-title" className="lx-display text-[clamp(3rem,min(8.4vw,11.5svh),6rem)]">
+            <h1 id="lx-hero-title" className="lx-display text-[clamp(min(3rem,12.5vw),min(8.4vw,11.5svh),6rem)]">
               <span className="lx-rise block" style={{ ["--i" as string]: 0 }}>
                 Impulsamos
               </span>

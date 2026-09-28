@@ -98,6 +98,16 @@ body:has(.lx) {
 .lx-btn:active {
   transform: scale(0.97);
 }
+/* En teléfonos muy angostos el rótulo largo parte en dos renglones en vez de empujar la página. */
+@media (max-width: 359px) {
+  .lx-btn {
+    height: auto;
+    min-height: 3.25rem;
+    padding-block: 0.75rem;
+    white-space: normal;
+    text-align: center;
+  }
+}
 .lx-btn-primary {
   background: var(--lx-orange);
   color: var(--lx-ink);
@@ -2318,8 +2328,11 @@ body:has(.lx) {
   .lx-dark .lx-swipe-hint {
     color: var(--lx-on-dark-muted);
   }
-  /* El día en carril: cada hora es una tarjeta de su color, y el carril deja aire abajo. */
+  /* El día en carril: cada hora es una tarjeta de su color, y el carril deja aire abajo.
+     Ya va a ancho completo (sin contenedor con padding), así que no sangra hacia afuera:
+     el margen negativo lo sacaba 20px del viewport y la página se corría de costado. */
   .lx-day-rail {
+    margin-inline: 0;
     padding-bottom: 3.5rem;
   }
   .lx-day-rail > .lx-day-band > div {

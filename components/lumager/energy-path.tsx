@@ -490,8 +490,8 @@ function MoreServices() {
       <ul ref={list} className="lx-plan-paper lx-more-sheet mt-8 grid md:grid-cols-3">
         {moreServices.map((s, i) => (
           // En celular, lámina chica al costado; desde tablet, lámina arriba.
-          <li key={s.drawing} className="grid grid-cols-[6.5rem_1fr] items-start gap-4 p-5 md:block md:p-6">
-            <div className="lx-lamina aspect-[4/3] p-[7%]" data-tone={s.tone}>
+          <li key={s.drawing} className="grid grid-cols-[6.5rem_1fr] items-start gap-4 p-5 max-[360px]:grid-cols-1 md:block md:p-6">
+            <div className="lx-lamina aspect-[4/3] p-[7%] max-[360px]:w-32" data-tone={s.tone}>
               <Drawing parts={drawings[s.drawing]} on={on} stagger={i} className="block size-full" />
             </div>
             <div>

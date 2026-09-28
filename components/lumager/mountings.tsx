@@ -247,7 +247,7 @@ export function Mountings() {
                   data-prev={i === prev}
                   inert={!on}
                 >
-                  <h3 className="lx-display text-[clamp(1.9rem,3.2vw,2.9rem)]">{t.title}</h3>
+                  <h3 className="lx-display text-[clamp(min(1.9rem,8.75vw),3.2vw,2.9rem)]">{t.title}</h3>
                   <p className="mt-4 max-w-[42ch] text-lg leading-relaxed text-[var(--lx-on-dark-muted)]">{t.body}</p>
 
                   <h4 className="mt-10 text-sm font-semibold text-[var(--lx-on-dark-muted)]">Lo hicieron con Lumager</h4>
