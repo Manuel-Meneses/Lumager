@@ -1,0 +1,891 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T03:22:00.307863+00:00",
+  "title": "Design System: Lumager Energía Solar",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta Obra",
+        "canonical": "#1b1d1c",
+        "tonalRamp": [
+          "oklch(0.15 0.004 165)",
+          "oklch(0.26 0.004 165)",
+          "oklch(0.37 0.004 165)",
+          "oklch(0.48 0.004 165)",
+          "oklch(0.60 0.004 165)",
+          "oklch(0.72 0.004 165)",
+          "oklch(0.84 0.004 165)",
+          "oklch(0.95 0.004 165)"
+        ]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Grafito",
+        "canonical": "#303533",
+        "tonalRamp": [
+          "oklch(0.15 0.008 170)",
+          "oklch(0.26 0.008 170)",
+          "oklch(0.37 0.008 170)",
+          "oklch(0.48 0.008 170)",
+          "oklch(0.60 0.008 170)",
+          "oklch(0.72 0.008 170)",
+          "oklch(0.84 0.008 170)",
+          "oklch(0.95 0.008 170)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papel Frío",
+        "canonical": "#f3f4f1",
+        "tonalRamp": [
+          "oklch(0.15 0.004 122)",
+          "oklch(0.26 0.004 122)",
+          "oklch(0.37 0.004 122)",
+          "oklch(0.48 0.004 122)",
+          "oklch(0.60 0.004 122)",
+          "oklch(0.72 0.004 122)",
+          "oklch(0.84 0.004 122)",
+          "oklch(0.95 0.004 122)"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Papel Hondo",
+        "canonical": "#e8eae5",
+        "tonalRamp": [
+          "oklch(0.15 0.007 124)",
+          "oklch(0.26 0.007 124)",
+          "oklch(0.37 0.007 124)",
+          "oklch(0.48 0.007 124)",
+          "oklch(0.60 0.007 124)",
+          "oklch(0.72 0.007 124)",
+          "oklch(0.84 0.007 124)",
+          "oklch(0.95 0.007 124)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Junta",
+        "canonical": "#d5d8d2",
+        "tonalRamp": [
+          "oklch(0.15 0.009 129)",
+          "oklch(0.26 0.009 129)",
+          "oklch(0.37 0.009 129)",
+          "oklch(0.48 0.009 129)",
+          "oklch(0.60 0.009 129)",
+          "oklch(0.72 0.009 129)",
+          "oklch(0.84 0.009 129)",
+          "oklch(0.95 0.009 129)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Gris Nota",
+        "canonical": "#585d5a",
+        "tonalRamp": [
+          "oklch(0.15 0.008 160)",
+          "oklch(0.26 0.008 160)",
+          "oklch(0.37 0.008 160)",
+          "oklch(0.48 0.008 160)",
+          "oklch(0.60 0.008 160)",
+          "oklch(0.72 0.008 160)",
+          "oklch(0.84 0.008 160)",
+          "oklch(0.95 0.008 160)"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "Papel sobre Grafito",
+        "canonical": "#f3f4f1",
+        "tonalRamp": [
+          "oklch(0.15 0.004 122)",
+          "oklch(0.26 0.004 122)",
+          "oklch(0.37 0.004 122)",
+          "oklch(0.48 0.004 122)",
+          "oklch(0.60 0.004 122)",
+          "oklch(0.72 0.004 122)",
+          "oklch(0.84 0.004 122)",
+          "oklch(0.95 0.004 122)"
+        ]
+      },
+      "on-dark-muted": {
+        "role": "neutral",
+        "displayName": "Gris Nota Oscuro",
+        "canonical": "#b4b9b5",
+        "tonalRamp": [
+          "oklch(0.15 0.008 152)",
+          "oklch(0.26 0.008 152)",
+          "oklch(0.37 0.008 152)",
+          "oklch(0.48 0.008 152)",
+          "oklch(0.60 0.008 152)",
+          "oklch(0.72 0.008 152)",
+          "oklch(0.84 0.008 152)",
+          "oklch(0.95 0.008 152)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Junta Oscura",
+        "canonical": "#3d4240",
+        "tonalRamp": [
+          "oklch(0.15 0.007 170)",
+          "oklch(0.26 0.007 170)",
+          "oklch(0.37 0.007 170)",
+          "oklch(0.48 0.007 170)",
+          "oklch(0.60 0.007 170)",
+          "oklch(0.72 0.007 170)",
+          "oklch(0.84 0.007 170)",
+          "oklch(0.95 0.007 170)"
+        ]
+      },
+      "orange": {
+        "role": "primary",
+        "displayName": "Naranja Lumager",
+        "canonical": "#ff8900",
+        "tonalRamp": [
+          "oklch(0.15 0.181 57)",
+          "oklch(0.26 0.181 57)",
+          "oklch(0.37 0.181 57)",
+          "oklch(0.48 0.181 57)",
+          "oklch(0.60 0.181 57)",
+          "oklch(0.72 0.181 57)",
+          "oklch(0.84 0.181 57)",
+          "oklch(0.95 0.181 57)"
+        ]
+      },
+      "orange-hover": {
+        "role": "primary",
+        "displayName": "Naranja Encendido",
+        "canonical": "#ff9d2e",
+        "tonalRamp": [
+          "oklch(0.15 0.163 63)",
+          "oklch(0.26 0.163 63)",
+          "oklch(0.37 0.163 63)",
+          "oklch(0.48 0.163 63)",
+          "oklch(0.60 0.163 63)",
+          "oklch(0.72 0.163 63)",
+          "oklch(0.84 0.163 63)",
+          "oklch(0.95 0.163 63)"
+        ]
+      },
+      "green": {
+        "role": "secondary",
+        "displayName": "Verde del Logo",
+        "canonical": "#2e8b3a",
+        "tonalRamp": [
+          "oklch(0.15 0.147 145)",
+          "oklch(0.26 0.147 145)",
+          "oklch(0.37 0.147 145)",
+          "oklch(0.48 0.147 145)",
+          "oklch(0.60 0.147 145)",
+          "oklch(0.72 0.147 145)",
+          "oklch(0.84 0.147 145)",
+          "oklch(0.95 0.147 145)"
+        ]
+      },
+      "green-live": {
+        "role": "secondary",
+        "displayName": "Verde Vivo",
+        "canonical": "#5cc46d",
+        "tonalRamp": [
+          "oklch(0.15 0.157 147)",
+          "oklch(0.26 0.157 147)",
+          "oklch(0.37 0.157 147)",
+          "oklch(0.48 0.157 147)",
+          "oklch(0.60 0.157 147)",
+          "oklch(0.72 0.157 147)",
+          "oklch(0.84 0.157 147)",
+          "oklch(0.95 0.157 147)"
+        ]
+      },
+      "plan": {
+        "role": "tertiary",
+        "displayName": "Celda de Plano",
+        "canonical": "#e8edf3",
+        "tonalRamp": [
+          "oklch(0.15 0.010 253)",
+          "oklch(0.26 0.010 253)",
+          "oklch(0.37 0.010 253)",
+          "oklch(0.48 0.010 253)",
+          "oklch(0.60 0.010 253)",
+          "oklch(0.72 0.010 253)",
+          "oklch(0.84 0.010 253)",
+          "oklch(0.95 0.010 253)"
+        ]
+      },
+      "plan-2": {
+        "role": "tertiary",
+        "displayName": "Celda de Plano Honda",
+        "canonical": "#d9e1ea",
+        "tonalRamp": [
+          "oklch(0.15 0.015 251)",
+          "oklch(0.26 0.015 251)",
+          "oklch(0.37 0.015 251)",
+          "oklch(0.48 0.015 251)",
+          "oklch(0.60 0.015 251)",
+          "oklch(0.72 0.015 251)",
+          "oklch(0.84 0.015 251)",
+          "oklch(0.95 0.015 251)"
+        ]
+      },
+      "plan-paper": {
+        "role": "tertiary",
+        "displayName": "Hoja de Plano",
+        "canonical": "#fbfcfd",
+        "tonalRamp": [
+          "oklch(0.15 0.002 248)",
+          "oklch(0.26 0.002 248)",
+          "oklch(0.37 0.002 248)",
+          "oklch(0.48 0.002 248)",
+          "oklch(0.60 0.002 248)",
+          "oklch(0.72 0.002 248)",
+          "oklch(0.84 0.002 248)",
+          "oklch(0.95 0.002 248)"
+        ]
+      },
+      "plan-dc": {
+        "role": "tertiary",
+        "displayName": "Corriente Continua",
+        "canonical": "#d96a00",
+        "tonalRamp": [
+          "oklch(0.15 0.166 52)",
+          "oklch(0.26 0.166 52)",
+          "oklch(0.37 0.166 52)",
+          "oklch(0.48 0.166 52)",
+          "oklch(0.60 0.166 52)",
+          "oklch(0.72 0.166 52)",
+          "oklch(0.84 0.166 52)",
+          "oklch(0.95 0.166 52)"
+        ]
+      },
+      "plan-dc-label": {
+        "role": "tertiary",
+        "displayName": "Rótulo de Continua",
+        "canonical": "#a34d00",
+        "tonalRamp": [
+          "oklch(0.15 0.135 51)",
+          "oklch(0.26 0.135 51)",
+          "oklch(0.37 0.135 51)",
+          "oklch(0.48 0.135 51)",
+          "oklch(0.60 0.135 51)",
+          "oklch(0.72 0.135 51)",
+          "oklch(0.84 0.135 51)",
+          "oklch(0.95 0.135 51)"
+        ]
+      },
+      "plan-ac-label": {
+        "role": "tertiary",
+        "displayName": "Rótulo de Alterna",
+        "canonical": "#23702d",
+        "tonalRamp": [
+          "oklch(0.15 0.126 145)",
+          "oklch(0.26 0.126 145)",
+          "oklch(0.37 0.126 145)",
+          "oklch(0.48 0.126 145)",
+          "oklch(0.60 0.126 145)",
+          "oklch(0.72 0.126 145)",
+          "oklch(0.84 0.126 145)",
+          "oklch(0.95 0.126 145)"
+        ]
+      },
+      "leaf-soft": {
+        "role": "tertiary",
+        "displayName": "Lámina Hoja",
+        "canonical": "#dcebd5",
+        "tonalRamp": [
+          "oklch(0.15 0.033 136)",
+          "oklch(0.26 0.033 136)",
+          "oklch(0.37 0.033 136)",
+          "oklch(0.48 0.033 136)",
+          "oklch(0.60 0.033 136)",
+          "oklch(0.72 0.033 136)",
+          "oklch(0.84 0.033 136)",
+          "oklch(0.95 0.033 136)"
+        ]
+      },
+      "sand-soft": {
+        "role": "tertiary",
+        "displayName": "Lámina Arena",
+        "canonical": "#ece2cf",
+        "tonalRamp": [
+          "oklch(0.15 0.028 84)",
+          "oklch(0.26 0.028 84)",
+          "oklch(0.37 0.028 84)",
+          "oklch(0.48 0.028 84)",
+          "oklch(0.60 0.028 84)",
+          "oklch(0.72 0.028 84)",
+          "oklch(0.84 0.028 84)",
+          "oklch(0.95 0.028 84)"
+        ]
+      },
+      "steel-soft": {
+        "role": "tertiary",
+        "displayName": "Lámina Acero",
+        "canonical": "#dde3ec",
+        "tonalRamp": [
+          "oklch(0.15 0.014 258)",
+          "oklch(0.26 0.014 258)",
+          "oklch(0.37 0.014 258)",
+          "oklch(0.48 0.014 258)",
+          "oklch(0.60 0.014 258)",
+          "oklch(0.72 0.014 258)",
+          "oklch(0.84 0.014 258)",
+          "oklch(0.95 0.014 258)"
+        ]
+      },
+      "sky-dawn": {
+        "role": "tertiary",
+        "displayName": "Amanecer",
+        "canonical": "#f4dcc5",
+        "tonalRamp": [
+          "oklch(0.15 0.041 66)",
+          "oklch(0.26 0.041 66)",
+          "oklch(0.37 0.041 66)",
+          "oklch(0.48 0.041 66)",
+          "oklch(0.60 0.041 66)",
+          "oklch(0.72 0.041 66)",
+          "oklch(0.84 0.041 66)",
+          "oklch(0.95 0.041 66)"
+        ]
+      },
+      "sky-morning": {
+        "role": "tertiary",
+        "displayName": "Mañana",
+        "canonical": "#e2eaee",
+        "tonalRamp": [
+          "oklch(0.15 0.010 229)",
+          "oklch(0.26 0.010 229)",
+          "oklch(0.37 0.010 229)",
+          "oklch(0.48 0.010 229)",
+          "oklch(0.60 0.010 229)",
+          "oklch(0.72 0.010 229)",
+          "oklch(0.84 0.010 229)",
+          "oklch(0.95 0.010 229)"
+        ]
+      },
+      "sky-noon": {
+        "role": "tertiary",
+        "displayName": "Mediodía",
+        "canonical": "#cfe3f3",
+        "tonalRamp": [
+          "oklch(0.15 0.031 242)",
+          "oklch(0.26 0.031 242)",
+          "oklch(0.37 0.031 242)",
+          "oklch(0.48 0.031 242)",
+          "oklch(0.60 0.031 242)",
+          "oklch(0.72 0.031 242)",
+          "oklch(0.84 0.031 242)",
+          "oklch(0.95 0.031 242)"
+        ]
+      },
+      "sky-afternoon": {
+        "role": "tertiary",
+        "displayName": "Tarde",
+        "canonical": "#f2d4a1",
+        "tonalRamp": [
+          "oklch(0.15 0.074 81)",
+          "oklch(0.26 0.074 81)",
+          "oklch(0.37 0.074 81)",
+          "oklch(0.48 0.074 81)",
+          "oklch(0.60 0.074 81)",
+          "oklch(0.72 0.074 81)",
+          "oklch(0.84 0.074 81)",
+          "oklch(0.95 0.074 81)"
+        ]
+      },
+      "sky-night": {
+        "role": "tertiary",
+        "displayName": "Noche Cuyana",
+        "canonical": "#142238",
+        "tonalRamp": [
+          "oklch(0.15 0.046 259)",
+          "oklch(0.26 0.046 259)",
+          "oklch(0.37 0.046 259)",
+          "oklch(0.48 0.046 259)",
+          "oklch(0.60 0.046 259)",
+          "oklch(0.72 0.046 259)",
+          "oklch(0.84 0.046 259)",
+          "oklch(0.95 0.046 259)"
+        ]
+      },
+      "news-masthead": {
+        "role": "secondary",
+        "displayName": "Verde Cabecera",
+        "canonical": "#123f1e",
+        "tonalRamp": [
+          "oklch(0.15 0.075 149)",
+          "oklch(0.26 0.075 149)",
+          "oklch(0.37 0.075 149)",
+          "oklch(0.48 0.075 149)",
+          "oklch(0.60 0.075 149)",
+          "oklch(0.72 0.075 149)",
+          "oklch(0.84 0.075 149)",
+          "oklch(0.95 0.075 149)"
+        ]
+      },
+      "news-obras-soft": {
+        "role": "tertiary",
+        "displayName": "Obras, tinte",
+        "canonical": "#ffe9cf",
+        "tonalRamp": [
+          "oklch(0.15 0.042 72)",
+          "oklch(0.26 0.042 72)",
+          "oklch(0.37 0.042 72)",
+          "oklch(0.48 0.042 72)",
+          "oklch(0.60 0.042 72)",
+          "oklch(0.72 0.042 72)",
+          "oklch(0.84 0.042 72)",
+          "oklch(0.95 0.042 72)"
+        ]
+      },
+      "news-obras-ink": {
+        "role": "tertiary",
+        "displayName": "Obras, tinta",
+        "canonical": "#8a4200",
+        "tonalRamp": [
+          "oklch(0.15 0.118 53)",
+          "oklch(0.26 0.118 53)",
+          "oklch(0.37 0.118 53)",
+          "oklch(0.48 0.118 53)",
+          "oklch(0.60 0.118 53)",
+          "oklch(0.72 0.118 53)",
+          "oklch(0.84 0.118 53)",
+          "oklch(0.95 0.118 53)"
+        ]
+      },
+      "news-clientes": {
+        "role": "tertiary",
+        "displayName": "Clientes, tono",
+        "canonical": "#34a046",
+        "tonalRamp": [
+          "oklch(0.15 0.161 146)",
+          "oklch(0.26 0.161 146)",
+          "oklch(0.37 0.161 146)",
+          "oklch(0.48 0.161 146)",
+          "oklch(0.60 0.161 146)",
+          "oklch(0.72 0.161 146)",
+          "oklch(0.84 0.161 146)",
+          "oklch(0.95 0.161 146)"
+        ]
+      },
+      "news-clientes-soft": {
+        "role": "tertiary",
+        "displayName": "Clientes, tinte",
+        "canonical": "#dcefd6",
+        "tonalRamp": [
+          "oklch(0.15 0.039 138)",
+          "oklch(0.26 0.039 138)",
+          "oklch(0.37 0.039 138)",
+          "oklch(0.48 0.039 138)",
+          "oklch(0.60 0.039 138)",
+          "oklch(0.72 0.039 138)",
+          "oklch(0.84 0.039 138)",
+          "oklch(0.95 0.039 138)"
+        ]
+      },
+      "news-clientes-ink": {
+        "role": "tertiary",
+        "displayName": "Clientes, tinta",
+        "canonical": "#1f6a2a",
+        "tonalRamp": [
+          "oklch(0.15 0.122 146)",
+          "oklch(0.26 0.122 146)",
+          "oklch(0.37 0.122 146)",
+          "oklch(0.48 0.122 146)",
+          "oklch(0.60 0.122 146)",
+          "oklch(0.72 0.122 146)",
+          "oklch(0.84 0.122 146)",
+          "oklch(0.95 0.122 146)"
+        ]
+      },
+      "news-prensa": {
+        "role": "tertiary",
+        "displayName": "Prensa, tono",
+        "canonical": "#1f9a96",
+        "tonalRamp": [
+          "oklch(0.15 0.101 191)",
+          "oklch(0.26 0.101 191)",
+          "oklch(0.37 0.101 191)",
+          "oklch(0.48 0.101 191)",
+          "oklch(0.60 0.101 191)",
+          "oklch(0.72 0.101 191)",
+          "oklch(0.84 0.101 191)",
+          "oklch(0.95 0.101 191)"
+        ]
+      },
+      "news-prensa-soft": {
+        "role": "tertiary",
+        "displayName": "Prensa, tinte",
+        "canonical": "#d3eeec",
+        "tonalRamp": [
+          "oklch(0.15 0.028 191)",
+          "oklch(0.26 0.028 191)",
+          "oklch(0.37 0.028 191)",
+          "oklch(0.48 0.028 191)",
+          "oklch(0.60 0.028 191)",
+          "oklch(0.72 0.028 191)",
+          "oklch(0.84 0.028 191)",
+          "oklch(0.95 0.028 191)"
+        ]
+      },
+      "news-prensa-ink": {
+        "role": "tertiary",
+        "displayName": "Prensa, tinta",
+        "canonical": "#145f5c",
+        "tonalRamp": [
+          "oklch(0.15 0.069 191)",
+          "oklch(0.26 0.069 191)",
+          "oklch(0.37 0.069 191)",
+          "oklch(0.48 0.069 191)",
+          "oklch(0.60 0.069 191)",
+          "oklch(0.72 0.069 191)",
+          "oklch(0.84 0.069 191)",
+          "oklch(0.95 0.069 191)"
+        ]
+      },
+      "news-diario": {
+        "role": "tertiary",
+        "displayName": "Diario, tono",
+        "canonical": "#e0a332",
+        "tonalRamp": [
+          "oklch(0.15 0.141 78)",
+          "oklch(0.26 0.141 78)",
+          "oklch(0.37 0.141 78)",
+          "oklch(0.48 0.141 78)",
+          "oklch(0.60 0.141 78)",
+          "oklch(0.72 0.141 78)",
+          "oklch(0.84 0.141 78)",
+          "oklch(0.95 0.141 78)"
+        ]
+      },
+      "news-diario-soft": {
+        "role": "tertiary",
+        "displayName": "Diario, tinte",
+        "canonical": "#f6e6c4",
+        "tonalRamp": [
+          "oklch(0.15 0.048 86)",
+          "oklch(0.26 0.048 86)",
+          "oklch(0.37 0.048 86)",
+          "oklch(0.48 0.048 86)",
+          "oklch(0.60 0.048 86)",
+          "oklch(0.72 0.048 86)",
+          "oklch(0.84 0.048 86)",
+          "oklch(0.95 0.048 86)"
+        ]
+      },
+      "news-diario-ink": {
+        "role": "tertiary",
+        "displayName": "Diario, tinta",
+        "canonical": "#6e4a0e",
+        "tonalRamp": [
+          "oklch(0.15 0.086 74)",
+          "oklch(0.26 0.086 74)",
+          "oklch(0.37 0.086 74)",
+          "oklch(0.48 0.086 74)",
+          "oklch(0.60 0.086 74)",
+          "oklch(0.72 0.086 74)",
+          "oklch(0.84 0.086 74)",
+          "oklch(0.95 0.086 74)"
+        ]
+      },
+      "news-empresa": {
+        "role": "tertiary",
+        "displayName": "Empresa, tono",
+        "canonical": "#5a67b0",
+        "tonalRamp": [
+          "oklch(0.15 0.115 274)",
+          "oklch(0.26 0.115 274)",
+          "oklch(0.37 0.115 274)",
+          "oklch(0.48 0.115 274)",
+          "oklch(0.60 0.115 274)",
+          "oklch(0.72 0.115 274)",
+          "oklch(0.84 0.115 274)",
+          "oklch(0.95 0.115 274)"
+        ]
+      },
+      "news-empresa-soft": {
+        "role": "tertiary",
+        "displayName": "Empresa, tinte",
+        "canonical": "#e1e4f4",
+        "tonalRamp": [
+          "oklch(0.15 0.022 277)",
+          "oklch(0.26 0.022 277)",
+          "oklch(0.37 0.022 277)",
+          "oklch(0.48 0.022 277)",
+          "oklch(0.60 0.022 277)",
+          "oklch(0.72 0.022 277)",
+          "oklch(0.84 0.022 277)",
+          "oklch(0.95 0.022 277)"
+        ]
+      },
+      "news-empresa-ink": {
+        "role": "tertiary",
+        "displayName": "Empresa, tinta",
+        "canonical": "#353f7a",
+        "tonalRamp": [
+          "oklch(0.15 0.100 274)",
+          "oklch(0.26 0.100 274)",
+          "oklch(0.37 0.100 274)",
+          "oklch(0.48 0.100 274)",
+          "oklch(0.60 0.100 274)",
+          "oklch(0.72 0.100 274)",
+          "oklch(0.84 0.100 274)",
+          "oklch(0.95 0.100 274)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error",
+        "canonical": "#b3261e",
+        "tonalRamp": [
+          "oklch(0.15 0.178 29)",
+          "oklch(0.26 0.178 29)",
+          "oklch(0.37 0.178 29)",
+          "oklch(0.48 0.178 29)",
+          "oklch(0.60 0.178 29)",
+          "oklch(0.72 0.178 29)",
+          "oklch(0.84 0.178 29)",
+          "oklch(0.95 0.178 29)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Titular del hero, en dos líneas. Archivo expandida (wdth 125)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Título de cada capítulo, balanceado; nunca más de 6rem."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Títulos de tarjetas, obras, notas y pestañas (wdth 118)."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Cifras de hojas de datos y contadores, con números tabulares."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Bajadas de sección, de 46 a 58ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto corrido, de 65 a 70ch, con espacio entre palabras de 0.04em."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Etiquetas de sección, rótulos de datos y duraciones (wdth 112)."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Botones y celdas de acción (wdth 110)."
+      }
+    },
+    "shadows": [
+      {
+        "name": "modulo-flotante",
+        "value": "0 10px 30px rgb(10 12 11 / 0.18)",
+        "purpose": "La cabecera flotando sobre el hero."
+      },
+      {
+        "name": "modulo-solido",
+        "value": "0 12px 34px rgb(10 12 11 / 0.3)",
+        "purpose": "La cabecera al bajar, casi opaca."
+      },
+      {
+        "name": "hoja-de-plano",
+        "value": "0 1px 0 rgb(16 42 76 / 0.04), 0 18px 40px -16px rgb(16 42 76 / 0.22)",
+        "purpose": "Hojas apoyadas sobre el panel del plano."
+      },
+      {
+        "name": "panel-emergente",
+        "value": "0 24px 60px rgb(10 12 11 / 0.45)",
+        "purpose": "Panel abierto de Instagram en el noticiero."
+      }
+    ],
+    "motion": [
+      {
+        "name": "lx-ease",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Ease-out fuerte para todo: estados, entradas y transiciones."
+      },
+      {
+        "name": "estado",
+        "value": "200ms a 300ms",
+        "purpose": "Hover, foco, color y borde."
+      },
+      {
+        "name": "entrada",
+        "value": "700ms a 1400ms",
+        "purpose": "Entradas de sección, subida del hero y trazado de filetes."
+      },
+      {
+        "name": "intro-delay",
+        "value": "950ms",
+        "purpose": "Espera de la intro del logo antes de que suba el hero."
+      },
+      {
+        "name": "celda-de-panel",
+        "value": "480ms, 28ms por diagonal (tope 900ms)",
+        "purpose": "La entrada en panel que destapa cada sección; solo transform y opacidad."
+      },
+      {
+        "name": "regla-gpu",
+        "value": "transform, opacity",
+        "purpose": "Únicas propiedades animadas al cargar o con el scroll; nada de blur."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "La acción de contacto: naranja con texto en tinta.",
+      "html": "<button class=\"ds-btn-primary\">Contanos tu proyecto <svg width=\"16\" height=\"16\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M221.66 133.66l-72 72a8 8 0 0 1-11.32-11.32L196.69 136H40a8 8 0 0 1 0-16h156.69l-58.35-58.34a8 8 0 0 1 11.32-11.32l72 72a8 8 0 0 1 0 11.32Z\"/></svg></button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:.6rem;height:3.25rem;padding:0 1.5rem;border:0;border-radius:0;font-family: Archivo, system-ui, sans-serif;font-weight:600;font-size:.95rem;font-variation-settings:\"wdth\" 110;cursor:pointer;transition:background-color 220ms cubic-bezier(.23,1,.32,1),transform 160ms cubic-bezier(.23,1,.32,1);background:#ff8900;color:#1b1d1c}.ds-btn-primary svg{transition:transform 220ms cubic-bezier(.23,1,.32,1)}.ds-btn-primary:hover{background:#ff9d2e}.ds-btn-primary:hover svg{transform:translateX(4px)}.ds-btn-primary:active{transform:scale(.97)}.ds-btn-primary:focus-visible{outline:2px solid #ff8900;outline-offset:3px}"
+    },
+    {
+      "name": "Botón tinta",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Acción secundaria sobre papel.",
+      "html": "<button class=\"ds-btn-ink\">Ver todas las obras</button>",
+      "css": ".ds-btn-ink{display:inline-flex;align-items:center;gap:.6rem;height:3.25rem;padding:0 1.5rem;border:0;border-radius:0;font-family: Archivo, system-ui, sans-serif;font-weight:600;font-size:.95rem;font-variation-settings:\"wdth\" 110;cursor:pointer;transition:background-color 220ms cubic-bezier(.23,1,.32,1),transform 160ms cubic-bezier(.23,1,.32,1);background:#1b1d1c;color:#f3f4f1}.ds-btn-ink:hover{background:#303533}.ds-btn-ink:active{transform:scale(.97)}.ds-btn-ink:focus-visible{outline:2px solid #ff8900;outline-offset:3px}"
+    },
+    {
+      "name": "Botón de línea",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Borde del color del texto; tinte del 10% al pasar el mouse.",
+      "html": "<button class=\"ds-btn-line\">Consultar esta línea</button>",
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;gap:.6rem;height:3.25rem;padding:0 1.5rem;border:0;border-radius:0;font-family: Archivo, system-ui, sans-serif;font-weight:600;font-size:.95rem;font-variation-settings:\"wdth\" 110;cursor:pointer;transition:background-color 220ms cubic-bezier(.23,1,.32,1),transform 160ms cubic-bezier(.23,1,.32,1);background:transparent;color:#1b1d1c;border:1px solid currentColor}.ds-btn-line:hover{background:color-mix(in srgb,currentColor 10%,transparent)}.ds-btn-line:focus-visible{outline:2px solid #ff8900;outline-offset:3px}"
+    },
+    {
+      "name": "Cabecera módulo",
+      "kind": "nav",
+      "refersTo": "header-cell",
+      "description": "La barra es un módulo fotovoltaico: celdas grafito densas (sin desenfoque) con busbars, junta de 2px y la celda de contacto en naranja.",
+      "html": "<nav class=\"ds-module\"><a class=\"ds-cell ds-logo\">Lumager</a><a class=\"ds-cell\" data-on=\"true\"><span class=\"ds-mark\"></span>Clientes</a><a class=\"ds-cell\"><span class=\"ds-mark\"></span>Servicios</a><a class=\"ds-cell\"><span class=\"ds-mark\"></span>Noticias</a><a class=\"ds-cell ds-cta\">Contanos tu proyecto</a></nav>",
+      "css": ".ds-module{display:flex;gap:2px;padding:2px;height:4rem;background:rgb(96 102 99/.9);box-shadow:0 12px 34px rgb(10 12 11/.3);font-family: Archivo, system-ui, sans-serif;}.ds-cell{display:flex;align-items:center;gap:.65rem;padding:0 1.25rem;background-color:rgb(27 29 28/.95);background-image:linear-gradient(90deg,transparent calc(25% - .5px),rgb(255 255 255/.05) calc(25% - .5px) calc(25% + .5px),transparent calc(25% + .5px) calc(50% - .5px),rgb(255 255 255/.05) calc(50% - .5px) calc(50% + .5px),transparent calc(50% + .5px) calc(75% - .5px),rgb(255 255 255/.05) calc(75% - .5px) calc(75% + .5px),transparent calc(75% + .5px));color:rgb(243 244 241/.82);font-size:.95rem;white-space:nowrap;text-decoration:none;cursor:pointer;transition:background-color 300ms cubic-bezier(.23,1,.32,1)}.ds-cell:hover{background-color:rgb(48 53 51/.85);color:#f3f4f1}.ds-logo{font-weight:700;color:#f3f4f1;font-variation-settings:\"wdth\" 125}.ds-mark{width:7px;height:7px;background:#ff8900;transform:scale(0);transition:transform 300ms cubic-bezier(.23,1,.32,1)}.ds-cell[data-on=\"true\"]{color:#f3f4f1;background-image:linear-gradient(to top,rgb(255 137 0/.2),transparent 70%)}.ds-cell[data-on=\"true\"] .ds-mark{transform:scale(1)}.ds-cta{background:#ff8900;color:#1b1d1c;font-weight:600}.ds-cta:hover{background:#ff9d2e;color:#1b1d1c}.ds-cell:focus-visible{outline:2px solid #ff8900;outline-offset:-3px}"
+    },
+    {
+      "name": "Campo de formulario",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Papel, junta de 1px, cursor naranja y foco en tinta.",
+      "html": "<label class=\"ds-label\">Localidad<input class=\"ds-field\" placeholder=\"Pocito, San Juan\"></label>",
+      "css": ".ds-label{display:block;font-family: Archivo, system-ui, sans-serif;font-size:.9rem;font-weight:600;color:#1b1d1c}.ds-field{display:block;width:100%;margin-top:.5rem;padding:.8rem 1rem;font:inherit;font-weight:400;font-size:1rem;background:#f3f4f1;color:#1b1d1c;border:1px solid #d5d8d2;border-radius:0;caret-color:#ff8900;transition:border-color 200ms cubic-bezier(.23,1,.32,1)}.ds-field::placeholder{color:#6f7470}.ds-field:hover{border-color:#959b97}.ds-field:focus-visible{outline:2px solid #1b1d1c;outline-offset:1px}"
+    },
+    {
+      "name": "Etiqueta de sección",
+      "kind": "chip",
+      "refersTo": "news-tag-obras",
+      "description": "Ficha teñida del noticiero: tinte de la sección, texto en su tinta y cuadrado de su tono.",
+      "html": "<span class=\"ds-tag\" style=\"--t:#ff8900;--s:#ffe9cf;--i:#8a4200\">Obras</span> <span class=\"ds-tag\" style=\"--t:#34a046;--s:#dcefd6;--i:#1f6a2a\">Clientes</span> <span class=\"ds-tag\" style=\"--t:#1f9a96;--s:#d3eeec;--i:#145f5c\">Prensa</span> <span class=\"ds-tag\" style=\"--t:#e0a332;--s:#f6e6c4;--i:#6e4a0e\">Diario de obra</span> <span class=\"ds-tag\" style=\"--t:#5a67b0;--s:#e1e4f4;--i:#353f7a\">Empresa</span>",
+      "css": ".ds-tag{display:inline-flex;align-items:center;gap:.45rem;height:1.5rem;padding:0 .55rem 0 .45rem;background:var(--s);color:var(--i);font-family: Archivo, system-ui, sans-serif;font-size:.78rem;font-weight:600;font-variation-settings:\"wdth\" 112}.ds-tag::before{content:\"\";width:.55rem;height:.55rem;background:var(--t)}"
+    },
+    {
+      "name": "Portada de video",
+      "kind": "custom",
+      "refersTo": "video-play",
+      "description": "Portada local con play cuadrado naranja y duración tabular; YouTube carga al tocar.",
+      "html": "<button class=\"ds-video\"><span class=\"ds-play\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82 16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128Z\"/></svg></span><span class=\"ds-dur\">0:35</span></button>",
+      "css": ".ds-video{position:relative;display:block;width:22rem;aspect-ratio:16/9;border:0;border-radius:0;cursor:pointer;background:linear-gradient(to top,rgb(17 19 18/.55),transparent 38%),linear-gradient(160deg,#cfe3f3,#8fa6b8 55%,#3a3326);font-family: Archivo, system-ui, sans-serif;}.ds-play{position:absolute;left:50%;top:50%;display:grid;place-items:center;width:3.5rem;height:3.5rem;background:#ff8900;color:#1b1d1c;translate:-50% -50%;transition:transform 300ms cubic-bezier(.23,1,.32,1)}.ds-video:hover .ds-play{transform:scale(1.12)}.ds-video:focus-visible{outline:2px solid #ff8900;outline-offset:-4px}.ds-dur{position:absolute;right:.75rem;bottom:.9rem;font-size:.8rem;font-weight:600;color:#f3f4f1;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Hoja de datos",
+      "kind": "card",
+      "refersTo": "data-sheet",
+      "description": "Cifras expandidas y tabulares, separadas por filetes, cada una con su color de trabajo.",
+      "html": "<dl class=\"ds-sheet\"><div><dd>+300</dd><dt>proyectos</dt></div><div><dd>+13.000 kW</dd><dt>instalados</dt></div><div><dd>11</dd><dt>provincias con obra</dt></div><div data-tone=\"green\"><dd>+7.000 t</dd><dt>de CO₂ evitadas por año</dt></div></dl>",
+      "css": ".ds-sheet{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:0;padding:1.75rem 2rem 2rem;background:#1b1d1c;color:#f3f4f1;font-family: Archivo, system-ui, sans-serif;}.ds-sheet>div{display:flex;flex-direction:column-reverse;gap:.4rem;padding:1rem 1.25rem 0;border-top:1px solid rgb(243 244 241/.24);border-left:1px solid #3d4240}.ds-sheet>div:first-child{padding-left:0;border-left:0}.ds-sheet dd{margin:0;font-size:1.85rem;font-weight:600;font-variation-settings:\"wdth\" 118;letter-spacing:-.01em;font-variant-numeric:tabular-nums}.ds-sheet dt{font-size:.9rem;color:#b4b9b5}.ds-sheet [data-tone=\"green\"]{border-top:2px solid #5cc46d}.ds-sheet [data-tone=\"green\"] dd{color:#5cc46d}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Plano y Módulo",
+    "overview": "Lumager se presenta como se presenta una obra bien hecha: con el plano sobre la mesa y el módulo a la vista. El sistema toma sus formas del material del rubro. La cabecera es un módulo fotovoltaico, con celdas de vidrio grafito separadas por juntas y busbars tenues. Las secciones se destapan como un panel que se enciende, celda por celda. La sección de servicios es un plano de ingeniería, con unifilar, corriente continua en naranja y alterna en verde. Las cifras van en hojas de datos con filetes. Todo es rectangular y a escuadra, sin una sola esquina redondeada.\n\nLa página alterna grafito profundo y papel frío por capítulos, para que cada pregunta del visitante se lea como un bloque. El naranja de la marca aparece poco y siempre con trabajo: marca la acción (contactar, reproducir, elegir) y lo que está vivo (la sección actual, el sol en el hero, la cinta de noticias). El resto del color también trabaja: el verde del logo es lo cumplido y lo sustentable, el plano azulado es la ingeniería y los tintes del cielo cuyano acompañan el paso del día.\n\nUna sola familia, Archivo, trabajada con su eje de ancho: expandida y semibold para titulares, como la rotulación de obra, y normal para leer. La fotografía es siempre de obras propias, a sangre y en bloques rectos. El movimiento es de ease-out fuerte. Cada sección tiene su propia entrada y todo respeta el movimiento reducido: el contenido nunca depende de una animación para verse.",
+    "keyCharacteristics": [
+      "Grafito y papel frío alternados por capítulos; el naranja solo para la acción y lo vivo.",
+      "Archivo con eje de ancho: expandida (wdth 118 a 125) en titulares y cifras, normal (wdth 100) para leer.",
+      "Cero radio en todo: botones, campos, tarjetas, videos, etiquetas y paneles.",
+      "Filetes de 1px y hojas de datos en lugar de tarjetas con sombra.",
+      "Motivos del rubro con función: módulo, celdas, busbars, plano unifilar, sol y tracker.",
+      "Fotografía y video de obras propias; nada de stock."
+    ],
+    "rules": [
+      {
+        "name": "The Orange Works Rule",
+        "body": "El naranja marca la acción o lo que está vivo, y nada más. Un fondo, un título o un adorno en naranja es un error.",
+        "section": "colors"
+      },
+      {
+        "name": "The Working Color Rule",
+        "body": "Todo color fuera de grafito, papel y naranja tiene un trabajo nombrado (lo cumplido, la ingeniería, la hora del día, la sección de una nota). Si no se puede decir qué identifica, no va.",
+        "section": "colors"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "La jerarquía sale del eje de ancho y del peso, no de otra familia: expandida para ser vista y normal para ser leída. No se agrega una segunda tipografía ni monoespaciada de adorno.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Toda cifra que se compara o cuenta (kW, fechas, horas, duraciones) va con números tabulares.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Blur Rule",
+        "body": "Nada se desenfoca: ni `filter: blur` ni `backdrop-filter`, ni quietos ni animados, ni el `placeholder=\"blur\"` de las imágenes de Next (su filtro SVG a pantalla completa trababa la intro). Lo que flota sobre una foto usa un fondo más denso, y una foto que carga muestra el fondo liso de su contenedor. Es un pedido del cliente por fluidez en Chrome.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Flat Sheet Rule",
+        "body": "Las tarjetas, las cifras y las listas no llevan sombra. Si algo necesita separarse, va un filete o un cambio de tono.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do alternar papel y grafito por capítulo, para que cada pregunta del visitante se lea como un bloque.",
+      "Do usar el naranja solo en la acción y en lo vivo, con texto en tinta encima.",
+      "Do titular con Archivo expandida (wdth 125, semibold, tracking -0.02em) y leer a ancho normal.",
+      "Do separar con filetes de 1px y juntas, y mostrar cifras en hojas de datos con números tabulares.",
+      "Do usar fotos y videos de obras propias, con el cliente nombrado cuando el video lo nombra.",
+      "Do darle a cada color secundario un trabajo que se pueda nombrar.",
+      "Do respetar el movimiento reducido: el contenido tiene que verse completo sin ninguna animación.",
+      "Do animar solo `transform` y `opacity` en todo lo que se mueve al cargar o con el scroll, para que la GPU lo resuelva aunque la página esté cargando JavaScript.",
+      "Do en celular, convertir las pilas largas de tarjetas en carriles horizontales (84% de ancho, con la siguiente asomando) y dar al menos 38px de alto de toque a los enlaces."
+    ],
+    "donts": [
+      "Don't redondear esquinas, en ningún componente.",
+      "Don't usar fotos de stock, íconos de adorno ni emojis en lugar de íconos.",
+      "Don't sumar una segunda familia tipográfica ni monoespaciada de disfraz técnico.",
+      "Don't usar sombras en tarjetas o listas; la profundidad es tonal.",
+      "Don't usar blur (`filter: blur` o `backdrop-filter`), ni animar colores de fondo en elementos grandes o repetidos.",
+      "Don't llenar fondos o títulos de naranja, ni usar degradés en el texto.",
+      "Don't armar la página con grillas de tarjetas iguales de ícono, título y texto.",
+      "Don't poner una etiqueta o antetítulo encima de un título."
+    ]
+  }
+}
